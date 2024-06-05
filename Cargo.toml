@@ -1,0 +1,17 @@
+[package]
+    authors = [
+        "LightArrowsEXE <LightArrowsReboot@gmail.com>",
+        "Riven Skaye <riven@tae.moe>"
+    ]
+    categories = ["command-line-utilities", "config", "encoding"]
+    description = "A package manager for VapourSynth projects that aims to provide fully reproducible project environments"
+    edition = "2021"
+    keywords = ["environment", "portable", "python", "vapoursynth"]
+    license = "MPL-2.0"
+    license-file = "LICENSE"
+    name = "vspm"
+    readme = "README.md"
+    repository = "https://github.com/VapourPackages/vspm"
+    version = "0.1.0"
+
+[dependencies]
