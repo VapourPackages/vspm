@@ -15,3 +15,23 @@
     version = "0.1.0"
 
 [dependencies]
+    clap = { version = "^4.5", default-features = false, features = [
+        "color",
+        "derive",
+        "env",
+        "help",
+        "std",
+        "suggestions",
+        "wrap_help"
+    ] }
+    tokio = { version = "^1", features = [
+        "fs",
+        "io-std",
+        "io-util",
+        "macros",
+        "net",
+        "parking_lot",
+        "process",
+        "rt",
+        "signal"
+    ] }
